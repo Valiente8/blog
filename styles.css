@@ -30,6 +30,7 @@ div{
     width: 1000px;
     border:2px brown solid;
     font-family: "Cabin", Arial;
+    line-height: 165%;
 }
 
 .links {
