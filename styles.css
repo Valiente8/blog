@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine|Cabin|Abril+Fatface");
+
+body{
+    background-image: url("Imagenes/ff.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+div{
+    display: block;
+}
+
+.presentacion a{
+    text-decoration: none;
+    color:white;
+    left:20px;
+    margin-left: 20px; 
+}
+
+.p1{
+    color:black;
+    margin:20px;
+    padding:5px;
+    margin-top: 50px;
+    background-color:rgba(255, 255, 255, 0.4);
+    height: 500px;
+    width: 1000px;
+    border:2px brown solid;
+    font-family: "Cabin", Arial;
+}
+
+.links {
+    font-family: "Abril Fatface", sans-serif;
+    display: inline;
+    padding:5px;
+    background-color:rgba(0, 0, 255, 0.5);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.Header a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-family: "Tangerine", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.Header {
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding-top: 2px;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding:0 80px;
+    text-align: center;
+}
+
+.Header a:hover{
+    color:#0000ff;
+}
+
+.presentacion a:hover{
+    color:#0000ff;
+}
+
+.presentacion a:active{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+
+/*Imagenes*/
+
+#f1{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:50px;
+}
+
+#f2{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:380px;
+    bottom:310px;
+}
+
+#f3{
+    height:300px;
+    width:300px;
+    position:relative;
+    left:700px;
+    bottom:620px;
+}
+
+#A1{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    position: relative;
+    left:50px;
+}
+
+#A2{
+    height:300px;
+    width:500px;
+    bottom:310px;
+    left:500px;
+    position: relative;
+    border-radius: 2px;
+    
+}
+
+#G1{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:50px;
+}
+
+#G2{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:650px;
+    bottom:310px;
+}
